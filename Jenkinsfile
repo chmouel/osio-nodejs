@@ -1,7 +1,8 @@
 @Library('github.com/fabric8io/osio-pipeline@master') _
 
 osio {
-
+  echo "Hello World";
+  
   config runtime: 'node'
 
   ci {
